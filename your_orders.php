@@ -458,7 +458,7 @@ only screen and (max-width: 760px),
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>Concept design of oline food order and deliveye,planned as restaurant directory</p>
+                                    <p>Salarjing palace,hyderabad</p>
                                     <h5>Phone: <a href="tel:+919154545282">+91 9154545282</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
