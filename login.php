@@ -15,7 +15,7 @@
 	  <style type="text/css">
 	  #buttn{
 		  color:#fff;
-		  background-color: #ff3300;
+		  background-color: #ff69b4;
 	  }
 	  </style>
   
@@ -65,8 +65,8 @@ if(isset($_POST['submit']))   // if button is submit
    
   </div>
   <div class="form">
-    <h2>Login to your account</h2>
-	  <span style="color:red;"><?php echo $message; ?></span> 
+    <h2 style="color:#ff69b4">Login to your account</h2>
+	  <span style="color:#ff69b4;"><?php echo $message; ?></span> 
    <span style="color:green;"><?php echo $success; ?></span>
     <form action="" method="post">
       <input type="text" placeholder="Username"  name="username"/>
@@ -75,7 +75,7 @@ if(isset($_POST['submit']))   // if button is submit
     </form>
   </div>
   
-  <div class="cta">Not registered?<a href="registration.php" style="color:#f30;"> Create an account</a></div>
+  <div class="cta">Not registered?<a href="registration.php" style="color:#ff69b4;"> Create an account</a></div>
 </div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 

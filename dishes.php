@@ -96,7 +96,7 @@ include_once 'product-action.php'; //including controller
                                     <h6><a href="#"><?php echo $rows['title']; ?></a></h6>
                                     <p><?php echo $rows['address']; ?></p>
                                     <ul class="nav nav-inline">
-                                        <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min $ 10,00</a> </li>
+                                        <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min INR 10,00</a> </li>
                                         <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-motorcycle"></i> 30 min</a> </li>
                                         <li class="nav-item ratings">
                                             <a class="nav-link" href="#"> <span>
@@ -154,7 +154,7 @@ foreach ($_SESSION["cart_item"] as $item)  // fetch items define current into se
 										
                                         <div class="form-group row no-gutter">
                                             <div class="col-xs-8">
-                                                 <input type="text" class="form-control b-r-0" value=<?php echo "$".$item["price"]; ?> readonly id="exampleSelect1">
+                                                 <input type="text" class="form-control b-r-0" value=<?php echo " INR ".$item["price"]; ?> readonly id="exampleSelect1">
                                                    
                                             </div>
                                             <div class="col-xs-4">
@@ -177,7 +177,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <div class="widget-body">
                                     <div class="price-wrap text-xs-center">
                                         <p>TOTAL</p>
-                                        <h3 class="value"><strong><?php echo "$".$item_total; ?></strong></h3>
+                                        <h3 class="value"><strong><?php echo " INR ".$item_total; ?></strong></h3>
                                         <p>Free Shipping</p>
                                         <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Checkout</a>
                                     </div>
@@ -231,7 +231,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                         </div>
                                         <!-- end:col -->
                                         <div class="col-xs-12 col-sm-12 col-lg-4 pull-right item-cart-info"> 
-										<span class="price pull-left" >$<?php echo $product['price']; ?></span>
+										<span class="price pull-left" >INR <?php echo $product['price']; ?></span>
 										  <input class="b-r-0" type="text" name="quantity"  style="margin-left:30px;" value="1" size="2" />
 										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to cart" />
 										</div>
@@ -374,16 +374,16 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                         <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                             <h5>Popular locations</h5>
                             <ul>
-                                <li><a href="#">Sarajevo</a> </li>
-                                <li><a href="#">Split</a> </li>
-                                <li><a href="#">Tuzla</a> </li>
-                                <li><a href="#">Sibenik</a> </li>
-                                <li><a href="#">Zagreb</a> </li>
-                                <li><a href="#">Brcko</a> </li>
-                                <li><a href="#">Beograd</a> </li>
-                                <li><a href="#">New York</a> </li>
-                                <li><a href="#">Gradacac</a> </li>
-                                <li><a href="#">Los Angeles</a> </li>
+                                <li><a href="#">Hyderabad</a> </li>
+                                <li><a href="#">Banglore</a> </li>
+                                <li><a href="#">Chennai</a> </li>
+                                <li><a href="#">Vellore</a> </li>
+                                <li><a href="#">Mumbai</a> </li>
+                                <li><a href="#">Goa</a> </li>
+                                <li><a href="#">Vishakapatnam</a> </li>
+                                <li><a href="#">Patna</a> </li>
+                                <li><a href="#">Kerala</a> </li>
+                                <li><a href="#">Karnataka</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -415,7 +415,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
                                     <p>Concept design of oline food order and deliveye,planned as restaurant directory</p>
-                                    <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                                    <h5>Phone: <a href="tel:+996302130946">+91 6302130946</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
                                     <p>Join the thousands of other restaurants who benefit from having their menus on TakeOff</p>
@@ -449,7 +449,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <!-- end:Description -->
                             </div>
                             <!-- end:col -->
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">$ 2.99</span></div>
+                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">INR 2.99</span></div>
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -479,7 +479,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <!-- end:Description -->
                             </div>
                             <!-- end:col -->
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">$ 2.49</span></div>
+                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">INR 2.49</span></div>
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -509,7 +509,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <!-- end:Description -->
                             </div>
                             <!-- end:col -->
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">$ 1.99</span></div>
+                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">INR 1.99</span></div>
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -539,7 +539,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <!-- end:Description -->
                             </div>
                             <!-- end:col -->
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">$ 3.15</span></div>
+                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">INR 3.15</span></div>
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">

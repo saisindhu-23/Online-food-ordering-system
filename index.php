@@ -62,11 +62,11 @@ session_start(); //start temp session until logout/browser closed
             <!-- /.navbar -->
         </header>
         <!-- banner part starts -->
-        <section class="hero bg-image" data-image-src="images/img/main.jpeg">
+        <section class="hero bg-image" data-image-src="images/img/main-2.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery & Take-Out </h1>
-                    <h5 class="font-white space-xs">Find restaurants, specials, and coupons for free</h5>
+                    <h1>Your Hunger Partner </h1>
+                    <h5 class="font-white space-xs">Call Us, We'll Be There</h5>
                     <div class="banner-form">
                         <form class="form-inline">
                             <div class="form-group">
@@ -114,7 +114,7 @@ session_start(); //start temp session until logout/browser closed
             <div class="container">
                 <div class="title text-xs-center m-b-30">
                     <h2>Popular Dishes of the Month</h2>
-                    <p class="lead">The easiest way to your favourite food</p>
+                    <p class="lead">The best way to your favourite food</p>
                 </div>
                 <div class="row">
 				
@@ -136,7 +136,7 @@ session_start(); //start temp session until logout/browser closed
 															<div class="content">
 																<h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
 																<div class="product-name">'.$r['slogan'].'</div>
-																<div class="price-btn-block"> <span class="price">$'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+																<div class="price-btn-block"> <span class="price"> INR '.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
 															</div>
 															
 														</div>
@@ -269,7 +269,7 @@ session_start(); //start temp session until logout/browser closed
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
+																		<div class="cost"><i class="fa fa-check"></i> Min INR 10,00</div>
 																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
@@ -367,16 +367,16 @@ session_start(); //start temp session until logout/browser closed
                     <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                         <h5>Popular locations</h5>
                         <ul>
-                            <li><a href="#">Sarajevo</a> </li>
-                            <li><a href="#">Split</a> </li>
-                            <li><a href="#">Tuzla</a> </li>
-                            <li><a href="#">Sibenik</a> </li>
-                            <li><a href="#">Zagreb</a> </li>
-                            <li><a href="#">Brcko</a> </li>
-                            <li><a href="#">Beograd</a> </li>
-                            <li><a href="#">New York</a> </li>
-                            <li><a href="#">Gradacac</a> </li>
-                            <li><a href="#">Los Angeles</a> </li>
+                            <li><a href="#">Hyderabad</a> </li>
+                            <li><a href="#">Banglore</a> </li>
+                            <li><a href="#">Chennai</a> </li>
+                            <li><a href="#">Vellore</a> </li>
+                            <li><a href="#">Mumbai</a> </li>
+                            <li><a href="#">Goa</a> </li>
+                            <li><a href="#">Vishakapatnam</a> </li>
+                            <li><a href="#">Patna</a> </li>
+                            <li><a href="#">Kerala</a> </li>
+                            <li><a href="#">Karnataka</a> </li>
                         </ul>
                     </div>
                 </div>

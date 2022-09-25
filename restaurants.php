@@ -104,10 +104,10 @@ session_start();
                                     Pizza
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Sandwich
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Burger
                                     </a> </li>
                                         <li> <a href="#" class="tag">
                                     Fish 
@@ -139,7 +139,7 @@ session_start();
 															<div class="entry-dscr">
 																<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].' <a href="#">...</a></span>
 																<ul class="list-inline">
-																	<li class="list-inline-item"><i class="fa fa-check"></i> Min $ 10,00</li>
+																	<li class="list-inline-item"><i class="fa fa-check"></i> Min INR 10,00</li>
 																	<li class="list-inline-item"><i class="fa fa-motorcycle"></i> 30 min</li>
 																</ul>
 															</div>
@@ -239,16 +239,16 @@ session_start();
                         <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                             <h5>Popular locations</h5>
                             <ul>
-                                <li><a href="#">Sarajevo</a> </li>
-                                <li><a href="#">Split</a> </li>
-                                <li><a href="#">Tuzla</a> </li>
-                                <li><a href="#">Sibenik</a> </li>
-                                <li><a href="#">Zagreb</a> </li>
-                                <li><a href="#">Brcko</a> </li>
-                                <li><a href="#">Beograd</a> </li>
-                                <li><a href="#">New York</a> </li>
-                                <li><a href="#">Gradacac</a> </li>
-                                <li><a href="#">Los Angeles</a> </li>
+                                <li><a href="#">Hyderabad</a> </li>
+                                <li><a href="#">Banglore</a> </li>
+                                <li><a href="#">Chennai</a> </li>
+                                <li><a href="#">Vellore</a> </li>
+                                <li><a href="#">Mumbai</a> </li>
+                                <li><a href="#">Goa</a> </li>
+                                <li><a href="#">Vishakapatnam</a> </li>
+                                <li><a href="#">Patna</a> </li>
+                                <li><a href="#">Kerala</a> </li>
+                                <li><a href="#">Karnataka</a> </li>
                             </ul>
                         </div>
                     </div>

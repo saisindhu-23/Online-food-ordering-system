@@ -46,25 +46,25 @@ else
 .panel-body {
   background: #e5e5e5;
   /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ff69b4 100%);
   /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e5e5e5), color-stop(100%, #ffffff));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ff69b4 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ff69b4 100%);
   /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ff69b4 100%);
   /* IE10+ */
-  background: radial-gradient(ellipse at center, #e5e5e5 0%, #ffffff 100%);
+  background: radial-gradient(ellipse at center, #e5e5e5 0%, #ff69b4 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ff69b4', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
   font: 600 15px "Open Sans", Arial, sans-serif;
 }
 label.control-label {
   font-weight: 600;
-  color: #777;
+  color: #ff69b4;
 }
 
 
@@ -81,7 +81,7 @@ tr:nth-of-type(odd) {
 	}
 
 th { 
-	background: #ff3300; 
+	background: #ff69b4; 
 	color: white; 
 	font-weight: bold; 
 	
@@ -232,10 +232,10 @@ only screen and (max-width: 760px),
                                     Pizza
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Sandwich
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Biriyani
                                     </a> </li>
                                         <li> <a href="#" class="tag">
                                     Fish 
@@ -365,8 +365,8 @@ only screen and (max-width: 760px),
                                     <figure> <img src="images/app.png" alt="Right Image"> </figure>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 left-text">
-                                    <h3>The Best Food Delivery App</h3>
-                                    <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
+                                    <h3>Speedy Food,Good Food </h3>
+                                    <p>Now you can enjoy the delicious food Anywhere and Everywhere &amp; Takeout App.</p>
                                     <div class="social-btns">
                                         <a href="#" class="app-btn apple-button clearfix">
                                             <div class="pull-left"><i class="fa fa-apple"></i> </div>
@@ -422,16 +422,14 @@ only screen and (max-width: 760px),
                         <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                             <h5>Popular locations</h5>
                             <ul>
-                                <li><a href="#">Sarajevo</a> </li>
-                                <li><a href="#">Split</a> </li>
-                                <li><a href="#">Tuzla</a> </li>
-                                <li><a href="#">Sibenik</a> </li>
-                                <li><a href="#">Zagreb</a> </li>
-                                <li><a href="#">Brcko</a> </li>
-                                <li><a href="#">Beograd</a> </li>
-                                <li><a href="#">New York</a> </li>
-                                <li><a href="#">Gradacac</a> </li>
-                                <li><a href="#">Los Angeles</a> </li>
+                                <li><a href="#">Bangalore</a> </li>
+                                <li><a href="#">Vellore</a> </li>
+                                <li><a href="#">Hyderabad</a> </li>
+                                <li><a href="#">Chennai</a> </li>
+                                <li><a href="#">Mumbai</a> </li>
+                                <li><a href="#">Goa</a> </li>
+                                
+    
                             </ul>
                         </div>
                     </div>
@@ -444,7 +442,7 @@ only screen and (max-width: 760px),
                                     <h5>Payment Options</h5>
                                     <ul>
                                         <li>
-                                            <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
+                                            <a href="#"> <img src="images/paypal.png" alt="Paytm"> </a>
                                         </li>
                                         <li>
                                             <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
@@ -455,15 +453,13 @@ only screen and (max-width: 760px),
                                         <li>
                                             <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
                                         </li>
-                                        <li>
-                                            <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
-                                        </li>
+    
                                     </ul>
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
                                     <p>Concept design of oline food order and deliveye,planned as restaurant directory</p>
-                                    <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                                    <h5>Phone: <a href="tel:+919154545282">+91 9154545282</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
                                     <p>Join the thousands of other restaurants who benefit from having their menus on TakeOff</p>

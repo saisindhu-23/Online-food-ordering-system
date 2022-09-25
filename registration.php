@@ -212,19 +212,22 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         <p></p>
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>How do i know status of my order?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq1" aria-expanded="false" role="article" style="height: 0px;">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
+                              <div class="panel-body">After you place your order, it is sent immediately to the kitchen, which starts preparing it without any delay. The kitchen does everything to process your order as quickly as possible. However, sometimes we receive large amount of orders, or drivers get stuck in heavy traffic this might cause little delays. If the amount of time you've waited has exceeded the estimated delivery time, you may please contact us. You will a receive an SMS as soon as your order is dispatched.</div>
                            </div>
                         </div>
                         <!-- end:panel -->
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>How can i cancel this order?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq2" aria-expanded="true" role="article">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
+                              <div class="panel-body"> Please contact helpline Number as soon as possible, we can let the kitchen know before it starts preparing your order. Once the order goes in the process, it can not be changed. With regard to any refund of a payment you have made online, please contact Let's Cook delivery.
+Please contact Let's Cook delivery.
+
++91 - 722 502 1674 Or customercare@letscook.com </div>
                            </div>
                         </div>
                         <!-- end:Panel -->
@@ -303,16 +306,16 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                      <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                         <h5>Popular locations</h5>
                         <ul>
-                           <li><a href="#">Sarajevo</a> </li>
-                           <li><a href="#">Split</a> </li>
-                           <li><a href="#">Tuzla</a> </li>
-                           <li><a href="#">Sibenik</a> </li>
-                           <li><a href="#">Zagreb</a> </li>
-                           <li><a href="#">Brcko</a> </li>
-                           <li><a href="#">Beograd</a> </li>
-                           <li><a href="#">New York</a> </li>
-                           <li><a href="#">Gradacac</a> </li>
-                           <li><a href="#">Los Angeles</a> </li>
+                           <li><a href="#">Hyderabad</a> </li>
+                           <li><a href="#">Banglore</a> </li>
+                           <li><a href="#">Chennai</a> </li>
+                           <li><a href="#">Vellore</a> </li>
+                           <li><a href="#">Mumabi</a> </li>
+                           <li><a href="#">Goa</a> </li>
+                           <li><a href="#">Vishakapatnam</a> </li>
+                           <li><a href="#">Patna</a> </li>
+                           <li><a href="#">Kerala</a> </li>
+                           <li><a href="#">Kanataka</a> </li>
                         </ul>
                      </div>
                   </div>
